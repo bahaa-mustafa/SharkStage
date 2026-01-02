@@ -1,0 +1,8 @@
+.welcome {
+  clip-path: shape(
+    from 0% 0,
+    line to 100% 0,
+    line to 100% calc(100% - 5rem),
+    curve to 0% calc(100% - 5rem) with 50% 100%
+  );
+}
